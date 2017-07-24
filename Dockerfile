@@ -1,4 +1,4 @@
 FROM alpine
 
-RUN apk add --update openssh
+RUN apk add --update openssh openssl wget
 
